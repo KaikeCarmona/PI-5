@@ -57,13 +57,21 @@ O projeto é composto por um **back-end** em Java (Spring Boot) e um **front-end
 
 pi_back/
 ├── Containerfile                   # Docker build do back-end
+
 ├── pom.xml                         # Configuração do Maven
+
 └── src/main/java/br/com/codaedorme/pi/
+
 ├── PiApplication.java           # Classe principal do Spring Boot
+
 ├── MenuCommandLineRunner.java   # Runner para execução no start
+
 └── domain/
+
 ├── api/cliente/             # API, entidades, DTOs e serviços do cliente
+
 ├── repository/              # Repositórios JPA
+
 └── service/                 # Lógica de negócio
 
 
@@ -71,13 +79,20 @@ pi_back/
 
 
 pi_front/
+
 ├── Dockerfile                      # Docker build do front-end
+
 ├── package.json                    # Dependências e scripts do front-end
+
 ├── next.config.ts                  # Configurações do Next.js
+
 └── src/
 ├── components/                 # Componentes React reutilizáveis
+
 ├── pages/                       # Páginas Next.js (SSR/SSG)
+
 ├── services/                    # Serviços de API (Axios)
+
 └── styles/                      # Estilos globais e PostCSS
 
 
